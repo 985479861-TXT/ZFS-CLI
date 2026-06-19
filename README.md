@@ -13,23 +13,23 @@ After compiling make a folder in "C:\" named bin, and move the zfs.exe to the pa
 
 zfs [option] [name]
 
-options:
-  -w => for web
-  -f => for files and folders
-  -t => for tools
+* options:
+  * -w => for web
+  * -f => for files and folders
+  * -t => for tools
 
-names:
-  for -w:
+* names:
+  * for -w:
     * leave blank for web browzer
     * gh => github
     * yt => youtube
     * ai => gemini
 
-  for -f (not edited):
+  * for -f (not edited):
     * leave blank for file explorer
     * py => python projects folder
     * web => web development folder
     * c => C projects folder
 
-  for -t (also not edited):
+  * for -t (also not edited):
     * ch => cheat engine
