@@ -32,4 +32,12 @@ zfs [option] [name]
     * c => C projects folder
 
   * for -t (also not edited):
+    * Leave blank fore task manager
     * ch => cheat engine
+    * mc => minecraft
+    * gm => GlazeWM
+    * zm => zenmap
+    * pm => postman
+
+# WARNING:
+The tool is tailored to my PC's File system and nessecities. Please edit the zfs.c to your needs for the best experience.
