@@ -28,7 +28,7 @@ int main(int argc, char *argv[]){
                 
             } 
             else{ // if no args, firefox
-                wr("firefox");
+                wr("firefox"); // ** edit to Edge or Chrome for your fav browser
             }
         }
 
@@ -37,13 +37,13 @@ int main(int argc, char *argv[]){
             if (i + 1 < argc){ // check post msg
                 char *ws = argv[++i];
                 if (strcmp(ws, "py") == 0){// py
-                    wr("C:/Users/DELL/Documents/python");
+                    wr("C:/Users/DELL/Documents/python"); // ** edit the path 
                 }
                 else if (strcmp(ws, "c") == 0){ // c
-                    wr("C:/Users/DELL/Desktop/C");
+                    wr("C:/Users/DELL/Desktop/C"); // ** edit the path
                 }
                 else if (strcmp(ws, "web") == 0){
-                    wr("D:/html");
+                    wr("D:/html"); // ** edit the path
                 }
                 
             } 
@@ -57,22 +57,22 @@ int main(int argc, char *argv[]){
             if (i + 1 < argc){ // check post msg
                 char *ws = argv[++i];
                 if (strcmp(ws, "ch") == 0){// py
-                    wr("C:/Program Files/Cheat Engine/Cheat Engine.exe");
+                    wr("C:/Program Files/Cheat Engine/Cheat Engine.exe"); // ** edit the paths
                 }
                 else if (strcmp(ws, "mc") == 0){ // c
-                    wr("C:/Users/DELL/AppData/Roaming/sklauncher/jre/bin/javaw.exe");
+                    wr("C:/Users/DELL/AppData/Roaming/sklauncher/jre/bin/javaw.exe"); // ** edit the paths
                 }
                 else if (strcmp(ws, "zm") == 0){
-                    wr("C:/Program Files (x86)/Nmap/zenmap/bin/pythonw.exe");
+                    wr("C:/Program Files (x86)/Nmap/zenmap/bin/pythonw.exe"); // ** edit the paths
                 }
                 else if (strcmp(ws, "pm") == 0){
-                    wr("C:/Users/DELL/AppData/Local/Postman/Postman.exe");
+                    wr("C:/Users/DELL/AppData/Local/Postman/Postman.exe"); // ** edit the paths
                 }
                 else if (strcmp(ws, "vm") == 0){
-                    wr("C:/Program Files/Oracle/VirtualBox/VirtualBox.exe");
+                    wr("C:/Program Files/Oracle/VirtualBox/VirtualBox.exe"); // ** edit the paths
                 }
                 else if (strcmp(ws, "gm") == 0) {
-                    wr("C:/Program Files/glzr.io/GlazeWM/glazewm.exe");
+                    wr("C:/Program Files/glzr.io/GlazeWM/glazewm.exe"); // ** edit the paths
                 }
                 
             } 
