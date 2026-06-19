@@ -38,6 +38,7 @@ zfs [option] [name]
     * gm => GlazeWM
     * zm => zenmap
     * pm => postman
+    * vm => VirtualBox
 
 # WARNING:
 The tool is tailored to my PC's File system and nessecities. Please edit the zfs.c to your needs for the best experience.
